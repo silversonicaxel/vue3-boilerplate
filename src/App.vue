@@ -5,10 +5,12 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
+    <i class="iconfont icon-pro" style="font-size: 5em; color: #3f5ff6"></i>
   </div>
 </template>
 
 <style lang="scss">
+@use '~@/assets/fonts/iconfont-demo/iconfont.scss';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
